@@ -1,1 +1,1 @@
-web: gunicorn workspace.wsgi --log-file -
+web: gunicorn --pythonpath workspace animalWebApi.wsgi --log-file -
